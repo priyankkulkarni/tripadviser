@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripadvisor-clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="navbar__s1">
+        <i class="fa-solid fa-bars" style="color: #000000"></i>
+      </div>
+      <div class="navbar__s2">
+        <img
+          src="./images/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+          alt="Tripadvisor_logo"
+          width="200px"
+        />
+      </div>
+      <div class="navbar__s3">
+        <p>Discover</p>
+        <p>Trips</p>
+        <p>Review</p>
+        <p>Forums</p>
+      </div>
+      <div class="navbar__s4">
+        <div class="navbar_s4__btn">
+          <i class="fa-solid fa-globe" style="color: #000000"></i><span>|</span
+          ><span>INR</span>
+        </div>
+        <button class="btn">Sign In</button>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <div class="title">
+      <h1>Where to?</h1>
+    </div>
+
+    <div class="tabs">
+      <p class="tabs__list">
+        <i class="fa-solid fa-house" style="color: #000000"></i>
+        Search All
+      </p>
+      <p class="tabs__list">
+        <i class="fa-solid fa-hotel" style="color: #000000"></i>
+        Hotels
+      </p>
+      <p class="tabs__list">
+        <i class="fa-solid fa-inbox" style="color: #000000"></i>
+        Things to Do
+      </p>
+      <p class="tabs__list">
+        <i class="fa-solid fa-utensils" style="color: #000000"></i>
+        Restaurants
+      </p>
+      <p class="tabs__list">
+        <i class="fa-solid fa-plane" style="color: #000000"></i>
+        Flights
+      </p>
+      <p class="tabs__list">
+        <i class="fa-solid fa-caravan" style="color: #000000"></i>
+        Hoilday Homes
+      </p>
+    </div>
+    <br />
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
+      <input type="text" placeholder="Places to go, things to do, hotels..." />
+      <button class="search__btn">Search</button>
+    </div>
+    <!-- banner -->
+    <div class="banner-container">
+      <div class="banner-container__item1"></div>
+      <div class="banner-container__item2">
+        <img src="./images/banner.png" alt="" />
+        <div class="banner-container__item2-sale">
+          <p>Power by AI BETA</p>
+          <h2>Get custom recs for your next trip</h2>
+          <p class="sub-title">
+            Find great eats, experiences, and more-inspired by things you love
+          </p>
+          <button>
+            <i class="fa-solid fa-location-dot" style="color: #ffff"></i>
+            Start a trip with AI
+          </button>
+        </div>
+      </div>
+      <div class="banner-container__item3"></div>
+    </div>
+
+    <!-- Adventure cards -->
+    <div class="adventure-container">
+      <div class="adventure-container__item1"></div>
+      <div class="adventure-container__item2">
+        <h2 class="adventure-container__item2-title">
+          Go on an award-winning adventure
+        </h2>
+        <p class="adventure-container__item2-subtitle">
+          2024’s Travellers’ Choice Awards Best of the Best Things To Do
+        </p>
+        <div class="img-container">
+          <div class="img-container__list">
+            <img src="./images/img-1.jpg" alt="" />
+            <p>Top Experiences</p>
+          </div>
+          <div class="img-container__list">
+            <img src="./images/img-2.jpg" alt="" />
+            <p>Top Attractions</p>
+          </div>
+          <div class="img-container__list">
+            <img src="./images/img-3.jpg" alt="" />
+            <p>Bucket List</p>
+          </div>
+          <div class="img-container__list">
+            <img src="./images/img-4.jpg" alt="" />
+            <p>Cultural & Historic</p>
+          </div>
+        </div>
+      </div>
+      <div class="adventure-container__item3"></div>
+    </div>
+
+    <!-- adventure card-2 -->
+    <div class="tour-container">
+      <div class="tour-container__item1"></div>
+      <div class="tour-container__item2">
+        <h2 class="tour-container__item2-title">
+          Ways to tour Chennai (Madras)
+        </h2>
+        <p class="tour-container__item2-subtitle">
+          Book these experiences for a close-up look at Chennai (Madras).
+        </p>
+        <div class="tour-container__item2-img-container">
+          <div class="tour-container__item2-img-container__list">
+            <img src="./images/img-7.jpg" alt="" />
+            <div class="tour-container__item2-img-container__body">
+              <p class="about">
+                Mahabalipuram & Kanchipuram in a day from chennai by private
+                card with guide
+              </p>
+              <p class="review">🟢🟢🟢🟢 1789</p>
+              <p class="price">From $120.00 per adult</p>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="tour-container__item2-img-container__list">
+            <img src="./images/img-10.jpg" alt="" />
+            <div class="tour-container__item2-img-container__body">
+              <p class="about">
+                Mahabalipuram & Kanchipuram in a day from chennai by private
+                card with guide
+              </p>
+              <p class="review">🟢🟢🟢🟢 1789</p>
+              <p class="price">From $120.00 per adult</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="tour-container__item2-img-container__list">
+            <img src="./images/img-6.jpg" alt="" />
+            <div class="tour-container__item2-img-container__body">
+              <p class="about">
+                Mahabalipuram & Kanchipuram in a day from chennai by private
+                card with guide
+              </p>
+              <p class="review">🟢🟢🟢🟢 1789</p>
+              <p class="price">From $120.00 per adult</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="tour-container__item2-img-container__list">
+            <img src="./images/img-8.jpg" alt="" />
+            <div class="tour-container__item2-img-container__body">
+              <p class="about">
+                Mahabalipuram & Kanchipuram in a day from chennai by private
+                card with guide
+              </p>
+              <p class="review">🟢🟢🟢🟢 1789</p>
+              <p class="price">From $120.00 per adult</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tour-container__item3"></div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer__one">
+        <div class="footer__one__s1">
+          <p>About Tripadvisor</p>
+          <p>About Us</p>
+          <p>Press</p>
+          <p>Resources and Policies</p>
+          <p>Careers</p>
+          <p>Trust & Safety</p>
+          <p>Contact us</p>
+        </div>
+        <div class="footer__one__s2">
+          <p>Explore</p>
+          <p>Write a review</p>
+          <p>Add a Place</p>
+          <p>Join</p>
+          <p>Travellers' Choice</p>
+          <p>Help Centre</p>
+          <p>Travel Articles</p>
+        </div>
+      </div>
+      <div class="footer__two">
+        <img
+          src="./images/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+          alt=""
+          width="200px"
+        />
+        <p>&copy; Tripadvisor LLC All rights reserved, Inc</p>
+      </div>
+    </div>
+  </body>
+</html>
